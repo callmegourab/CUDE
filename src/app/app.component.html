@@ -1,0 +1,13 @@
+<h1>CURD</h1>
+<app-header></app-header>
+<div>
+    <ul>
+        <button [routerLink]="['/contact']">contac</button><br>
+        <button [routerLink]="['/contact/test']">children</button>
+        <button [routerLink]="['/test']">test</button>
+        <br><br>
+        <button [routerLink]="['']">dashboard</button>
+    </ul>
+</div>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
